@@ -1,5 +1,11 @@
+import NavBar from "./components/NavBar";
+
 const App = () => {
-  return <div className="text-red-600">App</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 };
 
 export default App;
